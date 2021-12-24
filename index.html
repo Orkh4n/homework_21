@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homrework</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="ox_result"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="ox_icon_res"></div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="ox_div_res"></div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div id="ox_h1"></div>
+                    </div>    
+                        
+                    
+                </div>
+                
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                <div class="row">
+                    <div id="ox_select">
+                        <div class="ox_card">
+                            <button onclick="createInput ()" class="form-control">Input</button>
+                            <input type="number" id="ttt" class="form-control" >
+                            <button onclick="createIcon ()" class="form-control">Icon</button>
+                            <input type="text" id="oIcon" class="form-control" placeholder="Icon size">
+                            <select name="icon" id="iconSelect" class="form-control">
+                                <option value="car">car</option>
+                                <option value="bicycle">bicycle</option>
+                                <option value="bell">bell</option>
+                                <option value="bomb">bomb</option>
+                                <option value="anchor">anchor</option>
+                                <option value="battery-full">battery-full</option>
+                                <option value="fire">fire</option>
+                                <option value="filter">filter</option>
+                                <option value="user">user</option>
+                                <option value="user-md">user-md</option>
+                                <option value="heart">heart</option>
+                            </select>
+                            <button onclick="createDiv ()" class="form-control" >DIV</button>
+                            <select name="color" id="div_color" class="form-control">
+                                <option value="blue">blue</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="yellow">yellow</option>
+                                <option value="orange">orange</option>
+                            </select>
+                            <button onclick="createH1()" class="form-control">H1</button>
+                            <input type="text" id="my_text" class="form-control" placeholder="H1 text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/script.js"></script>
+<script src="bootstrap-3.4.1-dist/jquery-3.6.0.min.js"></script>
+<script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
